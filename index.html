@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Online Recruitment Solution</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Recruitment Solution</h1>
+        <p>Efficient Hiring for Managers and HR Professionals</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#search">Candidate Search</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to Our Online Recruitment Solution</h2>
+            <p>Streamline your hiring process with our advanced platform.</p>
+            <button>Contact Us</button>
+        </section>
+        
+        <section id="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Automated Job Posting</li>
+                <li>Applicant Tracking System</li>
+                <li>Resume Parsing</li>
+                <li>Interview Scheduling</li>
+                <li>Collaborative Hiring</li>
+            </ul>
+        </section>
+        
+        <section id="benefits">
+            <h2>Benefits</h2>
+            <ul>
+                <li>Save time and effort in finding the right candidates</li>
+                <li>Efficiently manage the entire recruitment process</li>
+                <li>Streamline communication with applicants and team members</li>
+                <li>Enhance collaboration among hiring managers and HR professionals</li>
+                <li>Ensure a seamless and organized hiring workflow</li>
+            </ul>
+        </section>
+        
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </section>
+        
+        <section id="register">
+            <h2>Register</h2>
+            <form>
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <input type="submit" value="Register">
+            </form>
+        </section>
+        
+        <section id="search">
+            <h2>Candidate Search</h2>
+            <form>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location">
+                <br>
+                <label for="jobRole">Job Role:</label>
+                <input type="text" id="jobRole" name="jobRole">
+                <br>
+                <input type="submit" value="Search">
+            </form>
+            
+            <div id="candidateList">
+                <h3>Candidate List</h3>
+                <ul id="candidateResults">
+                    <!-- Fetched candidates will be dynamically added here -->
+                </ul>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2023 Online Recruitment Solution. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
